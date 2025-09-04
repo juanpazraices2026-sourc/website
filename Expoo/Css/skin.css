@@ -1,0 +1,137 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffdfa; /* fondo general claro */
+  color: #00421e; /* texto oscuro */
+}
+
+/* Tipografía del logo */
+.logo-font {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: #00421e !important;
+}
+
+/* Barra superior */
+.top-bar {
+  background-color: #fdf3e9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.input-group-text {
+  background-color: #00421e;
+  color: #fff;
+  border: none;
+}
+
+.form-control:focus {
+  border-color: #00421e;
+  box-shadow: 0 0 0 0.2rem rgba(0, 66, 30, 0.25);
+}
+
+/* Menú */
+.main-navbar {
+  background-color: #00421e;
+  padding: 0.7rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  color: #fdf3e9 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #fffdfa !important;
+  transition: background-color 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #e9f3ec !important;
+  color: #00421e !important;
+}
+
+.dropdown-menu {
+  background-color: #fdf3e9;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.dropdown-item {
+  color: #00421e;
+}
+
+.dropdown-item:hover {
+  background-color: #e9f3ec;
+  color: #00421e;
+}
+
+/* Sección de Ofertas */
+.ofertas {
+  background-color: #e9f3ec;
+}
+
+.ofertas h2 {
+  color: #00421e;
+  font-size: 2rem;
+}
+
+.oferta-card {
+  border: 1px solid #d2e9db;
+  transition: transform 0.3s ease;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #fffdfa;
+}
+
+.oferta-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 66, 30, 0.2);
+}
+
+.oferta-card .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer {
+  background-color: #00421e;
+  font-size: 0.9rem;
+}
+
+.footer h5, .footer h6 {
+  color: #e9f3ec;
+}
+
+.footer p, .footer a {
+  color: #fffdfa;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #e9f3ec;
+}
+.footer .logo-font {
+  color: #e9f3ec !important; /* verde claro que sí se ve sobre fondo oscuro */
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    font-size: 18px;
+  }
+}
